@@ -1,8 +1,4 @@
-﻿//By using this software you are agreeing to leaving this header in-tact.
-//Implicit Copyright © 2014 - Under no circumstances may you redistribute this software.
-
-
-
+﻿
 using System;
 using Server;
 using Server.Guilds;
