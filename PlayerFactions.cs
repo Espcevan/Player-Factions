@@ -3675,7 +3675,7 @@ namespace Ulmeta.Factions
                     Effects.PlaySound(Location, Map, 0x143);
 
                     from.Damage( Utility.RandomMinMax(14, 22));
-                    BleedAttack.BeginBleed(from, from);
+                    BleedAttack.BeginBleed(from, from, false);
 
                     from.LocalOverheadMessage(MessageType.Regular, 0x22, true, "*The snare snaps close around your ankle!*");
 
