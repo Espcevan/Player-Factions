@@ -18,7 +18,6 @@ using Server.Regions;
 using Server.Items;
 using Server.Spells;
 using Server.ContextMenus;
-using Server.Currency;
 using Ulmeta.Factions.Guards;
 using Ulmeta.Factions.Vendors;
 
@@ -79,8 +78,8 @@ using Ulmeta.Factions.Vendors;
 //            if((source is PlayerMobile || source is Guard) && (target is PlayerMobile || target is Guard))
 //            {
                    
-//                BaseFaction sourceFaction = (source is PlayerMobile ? ((PlayerMobile)source).CurrentFaction : ((Guard)source).Faction);
-//                BaseFaction targetFaction = (source is PlayerMobile ? ((PlayerMobile)source).CurrentFaction : ((Guard)source).Faction);
+//                PlayerFaction sourceFaction = (source is PlayerMobile ? ((PlayerMobile)source).CurrentFaction : ((Guard)source).Faction);
+//                PlayerFaction targetFaction = (source is PlayerMobile ? ((PlayerMobile)source).CurrentFaction : ((Guard)source).Faction);
 
 //                if(sourceFaction != null && targetFaction != null)
 //                {
@@ -97,6 +96,7 @@ using Ulmeta.Factions.Vendors;
 //            }
 
 // Add to Guilds.cs
+//using Ulmeta.Factions;
 // Add to Guilds.AddMember(Mobile m) at the bottom of the if statement.
 // FactionHandler.AddMember(((PlayerMobile)Leader).CurrentFaction, m);
 
