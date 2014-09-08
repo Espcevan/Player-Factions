@@ -564,8 +564,6 @@ namespace Ulmeta.Factions
                 Serialize(writer);
 
                 ConstructXML();
-
-                writer.Close(); writer.Dispose();
             }
 
             catch(ArgumentException e) 
